@@ -5,19 +5,35 @@
     <classes>
       <class name="com.demo.tests.LoginTest">
         <methods>
+          <include name="logout"/>
           <include name="ValidLoginTest"/>
-          <include name="Logout"/>
           <include name="InvalidLoginTest"/>
+          <include name="initializeExtentReports"/>
           <include name="setup"/>
+          <include name="ExtentFinsh"/>
+          <include name="flushExtentReport"/>
         </methods>
       </class> <!-- com.demo.tests.LoginTest -->
       <class name="com.demo.tests.NewCustomerTest">
         <methods>
+          <include name="EmailAlreadyPresent"/>
+          <include name="initializeExtentReports"/>
           <include name="setup"/>
-          <include name="AddCustomer"/>
+          <include name="AddCustomer" invocation-numbers="0"/>
           <include name="logout"/>
+          <include name="ExtentFinsh"/>
         </methods>
       </class> <!-- com.demo.tests.NewCustomerTest -->
+      <class name="com.demo.tests.EditCustomerTest">
+        <methods>
+          <include name="InvalidCustomerId"/>
+          <include name="setup"/>
+          <include name="logout"/>
+          <include name="initializeExtentReports"/>
+          <include name="EditCustomer"/>
+          <include name="ExtentFinsh"/>
+        </methods>
+      </class> <!-- com.demo.tests.EditCustomerTest -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->

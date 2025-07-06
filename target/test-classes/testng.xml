@@ -2,9 +2,7 @@
 <suite name="My Test Suite">
     <test name="Regression Tests">
         <classes>
-            <class name="com.demo.tests.LoginTest"/>
-            <class name="com.demo.tests.NewCustomerTest"/>
-            <class name="com.demo.tests.EditCustomerTest"></class>
+            <class name="com.demo.tests.apis.bookingId"></class>
         </classes>
     </test>
 </suite>

@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary"></span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Feb 25, 2025 04:51:10 PM</span></a>
+<a href="#"><span class="badge badge-primary">Jul 6, 2025 04:31:00 PM</span></a>
 </li>
 </ul>
 </div>
@@ -79,9 +79,9 @@
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">Invalid Login Test</p>
+            <p class="name">Valid GET Api Testing</p>
             <p class="text-sm">
-              <span>4:51:27 PM</span> / <span>00:00:00:567</span>
+              <span>4:31:00 PM</span> / <span>00:00:03:683</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -89,10 +89,10 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">Invalid Login Test</h5>
-<span class='badge badge-success'>02.25.2025 4:51:27 PM</span>
-<span class='badge badge-danger'>02.25.2025 4:51:27 PM</span>
-<span class='badge badge-default'>00:00:00:567</span>
+<h5 class="test-status text-pass">Valid GET Api Testing</h5>
+<span class='badge badge-success'>07.06.2025 4:31:00 PM</span>
+<span class='badge badge-danger'>07.06.2025 4:31:04 PM</span>
+<span class='badge badge-default'>00:00:03:683</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
@@ -105,35 +105,35 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>4:51:27 PM</td>
+        <td>4:31:00 PM</td>
         <td>
-          Starting invalid Login Test
+          Hitting the endpoint
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>4:51:27 PM</td>
+        <td>4:31:04 PM</td>
         <td>
-          Login form submitted with invalid credentials.
+          endpoint hit /booking
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>4:51:27 PM</td>
+        <td>4:31:04 PM</td>
         <td>
-          Alert displayed for invalid login.
+          status code received:200
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>4:51:27 PM</td>
+        <td>4:31:04 PM</td>
         <td>
-          Invalid Login Test Passed : Expected Alert shown
+          Booking IDs Retrieve successfully
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>4:51:27 PM</td>
+        <td>4:31:04 PM</td>
         <td>
           Test completed. Cleaning up and closing the browser.
         </td>
@@ -148,9 +148,9 @@
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">Valid Login Test</p>
+            <p class="name">Post API Testing</p>
             <p class="text-sm">
-              <span>4:51:33 PM</span> / <span>00:00:00:536</span>
+              <span>4:31:04 PM</span> / <span>00:00:01:073</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -158,10 +158,10 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">Valid Login Test</h5>
-<span class='badge badge-success'>02.25.2025 4:51:33 PM</span>
-<span class='badge badge-danger'>02.25.2025 4:51:34 PM</span>
-<span class='badge badge-default'>00:00:00:536</span>
+<h5 class="test-status text-pass">Post API Testing</h5>
+<span class='badge badge-success'>07.06.2025 4:31:04 PM</span>
+<span class='badge badge-danger'>07.06.2025 4:31:05 PM</span>
+<span class='badge badge-default'>00:00:01:073</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
@@ -174,428 +174,32 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>4:51:33 PM</td>
+        <td>4:31:04 PM</td>
         <td>
-          Starting Valid login test
+          response body created	{
+		"username" : "admin",
+		"password" : "password123"
+	}
+
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>4:51:34 PM</td>
+        <td>4:31:05 PM</td>
         <td>
-          Login form submitted with valid credentials
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>4:51:34 PM</td>
-        <td>
-          Waiting for URL redirectionhttps://demo.guru99.com/V4/manager/Managerhomepage.php
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>4:51:34 PM</td>
-        <td>
-          Test completed. Cleaning up and closing the browser.
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="3"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">add customer</p>
-            <p class="text-sm">
-              <span>4:51:41 PM</span> / <span>00:00:07:084</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">add customer</h5>
-<span class='badge badge-success'>02.25.2025 4:51:41 PM</span>
-<span class='badge badge-danger'>02.25.2025 4:51:48 PM</span>
-<span class='badge badge-default'>00:00:07:084</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
-<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
-<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
-<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>4:51:41 PM</td>
-        <td>
-          Adding New Customer Test Started
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>4:51:41 PM</td>
-        <td>
-          Navigated to Add Customer Page
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>4:51:42 PM</td>
-        <td>
-          Form submitted for adding new customer
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>4:51:42 PM</td>
-        <td>
-          Alert handling completed
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>4:51:48 PM</td>
-        <td>
-          Test completed. Cleaning up and closing the browser.
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="4"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">add customer</p>
-            <p class="text-sm">
-              <span>4:51:57 PM</span> / <span>00:00:07:063</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">add customer</h5>
-<span class='badge badge-success'>02.25.2025 4:51:57 PM</span>
-<span class='badge badge-danger'>02.25.2025 4:52:04 PM</span>
-<span class='badge badge-default'>00:00:07:063</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
-<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
-<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
-<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>4:51:57 PM</td>
-        <td>
-          Adding New Customer Test Started
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>4:51:57 PM</td>
-        <td>
-          Navigated to Add Customer Page
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>4:51:58 PM</td>
-        <td>
-          Form submitted for adding new customer
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>4:51:58 PM</td>
-        <td>
-          Alert handling completed
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>4:52:04 PM</td>
-        <td>
-          Test completed. Cleaning up and closing the browser.
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="5"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">add customer</p>
-            <p class="text-sm">
-              <span>4:52:16 PM</span> / <span>00:00:07:087</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">add customer</h5>
-<span class='badge badge-success'>02.25.2025 4:52:16 PM</span>
-<span class='badge badge-danger'>02.25.2025 4:52:23 PM</span>
-<span class='badge badge-default'>00:00:07:087</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
-<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
-<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
-<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>4:52:16 PM</td>
-        <td>
-          Adding New Customer Test Started
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>4:52:16 PM</td>
-        <td>
-          Navigated to Add Customer Page
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>4:52:17 PM</td>
-        <td>
-          Form submitted for adding new customer
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>4:52:17 PM</td>
-        <td>
-          Alert handling completed
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>4:52:23 PM</td>
-        <td>
-          Test completed. Cleaning up and closing the browser.
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="6"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">Email Already Present</p>
-            <p class="text-sm">
-              <span>4:52:31 PM</span> / <span>00:00:02:544</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">Email Already Present</h5>
-<span class='badge badge-success'>02.25.2025 4:52:31 PM</span>
-<span class='badge badge-danger'>02.25.2025 4:52:34 PM</span>
-<span class='badge badge-default'>00:00:02:544</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
-<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
-<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
-<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>4:52:31 PM</td>
-        <td>
-          Login done
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>4:52:31 PM</td>
-        <td>
-          Redirected to Home
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>4:52:33 PM</td>
-        <td>
-          Add Customer Page
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>4:52:33 PM</td>
-        <td>
-          Form Submitted
+          status code received200
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>4:52:33 PM</td>
+        <td>4:31:05 PM</td>
         <td>
-          Alert shown
+          token was generated859e461dc6c784b
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>4:52:34 PM</td>
-        <td>
-          Test completed. Cleaning up and closing the browser.
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="7"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">Edit Customer</p>
-            <p class="text-sm">
-              <span>4:52:43 PM</span> / <span>00:00:02:955</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">Edit Customer</h5>
-<span class='badge badge-success'>02.25.2025 4:52:43 PM</span>
-<span class='badge badge-danger'>02.25.2025 4:52:46 PM</span>
-<span class='badge badge-default'>00:00:02:955</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
-<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
-<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
-<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>4:52:45 PM</td>
-        <td>
-          Redirected to Edit Customer Page
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>4:52:45 PM</td>
-        <td>
-          Customer Id entered and submitted
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>4:52:46 PM</td>
-        <td>
-          Test completed. Cleaning up and closing the browser.
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="8"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">Invalid Customer ID</p>
-            <p class="text-sm">
-              <span>4:52:53 PM</span> / <span>00:00:04:597</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">Invalid Customer ID</h5>
-<span class='badge badge-success'>02.25.2025 4:52:53 PM</span>
-<span class='badge badge-danger'>02.25.2025 4:52:58 PM</span>
-<span class='badge badge-default'>00:00:04:597</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=8</span>
-<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
-<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
-<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
-</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>4:52:54 PM</td>
-        <td>
-          Redirected to Edit Customer Page
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>4:52:58 PM</td>
-        <td>
-          Customer Id entered and submitted
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>4:52:58 PM</td>
-        <td>
-          Invalid Customer ID Test Passed
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>4:52:58 PM</td>
+        <td>4:31:05 PM</td>
         <td>
           Test completed. Cleaning up and closing the browser.
         </td>
@@ -619,19 +223,19 @@
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Feb 25, 2025 04:51:10 PM</h3>
+<h3>Jul 6, 2025 04:31:00 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Feb 25, 2025 04:52:58 PM</h3>
+<h3>Jul 6, 2025 04:31:05 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-pass">Tests Passed</p>
-<h3>8</h3>
+<h3>2</h3>
 </div></div>
 </div>
 <div class="col-md-3">
@@ -654,7 +258,7 @@
 </div>
 <div class="card-footer">
 <div><small data-tooltip='100%'>
-<b>8</b> tests passed
+<b>2</b> tests passed
 </small>
 </div>
 <div>
@@ -676,10 +280,10 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='8%'><b>3</b> events passed</small></div>
+<div><small data-tooltip='22%'><b>2</b> events passed</small></div>
 <div>
 <small data-tooltip='0%'><b>0</b> events failed,
-<b data-tooltip='%'>34</b> others
+<b data-tooltip='%'>7</b> others
 </small>
 </div>
 </div>
@@ -695,7 +299,7 @@
 </div></div>
 <script>
 var timeline = {
-"Invalid Login Test":0.567,"Valid Login Test":0.536,"add customer":7.084,"add customer":7.063,"add customer":7.087,"Email Already Present":2.544,"Edit Customer":2.955,"Invalid Customer ID":4.597
+"Valid GET Api Testing":3.683,"Post API Testing":1.073
 };
 </script>
 <div class="row">
@@ -704,7 +308,7 @@ var timeline = {
 <script>
 var statusGroup = {
 parentCount: 5,
-passParent: 8,
+passParent: 2,
 failParent: 0,
 warningParent: 0,
 skipParent: 0,
@@ -721,11 +325,11 @@ warningGrandChild: 0,
 skipGrandChild: 0,
 infoGrandChild: 0,
 eventsCount: 5,
-passEvents: 3,
+passEvents: 2,
 failEvents: 0,
 warningEvents: 0,
 skipEvents: 0,
-infoEvents: 34
+infoEvents: 7
 };
 </script>        </div>
       </div>
